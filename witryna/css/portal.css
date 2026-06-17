@@ -1,0 +1,8 @@
+html {
+    scroll-padding-top: 70px;
+    scroll-behavior: smooth;
+}
+
+#mainNavbar {
+    background-color: var(--color-400);
+}
