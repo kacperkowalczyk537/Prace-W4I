@@ -7,3 +7,14 @@
     color: var(--color-400);
     font-size: 3rem;
 }
+
+.footer {
+    background-color: #111;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.footer p {
+    margin: 0;
+}
