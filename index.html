@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal InfoInfc</title>
+    <title>Portal InfoInfo</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-          rel="stylesheet"
-          integrity="sha384-sRIl4kxILFvY47yl6cr9ZwB07vP4J8+LH7QkQnuJ2vWLzeN8tE5YBujZjgu2BLB"
-          crossorigin="anonymous">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
 
-    <link href="css/portal.css" rel="stylesheet">
+    <!-- Własny CSS -->
+    <link href="witryna/css/portal.css" rel="stylesheet">
 </head>
 <body>
 
@@ -23,6 +23,99 @@
         <!-- category cards -->
 
         <!-- authors carousel -->
+        <section id="authors" class="container my-5">
+
+            <h2 class="text-center mb-4">Autorzy</h2>
+
+            <div id="authorsCarousel" class="carousel slide">
+
+                <div class="carousel-inner">
+
+                    <!-- Slajd wprowadzający -->
+                    <div class="carousel-item active">
+                        <div class="row align-items-center">
+
+                            <div class="col-lg-4 text-center">
+                                <img src="witryna/img/wireFrame.PNG"
+                                     class="img-fluid rounded"
+                                     alt="Autorzy">
+                            </div>
+
+                            <div class="col-lg-8">
+                                <h3>Poznaj autorów</h3>
+                                <p>
+                                    Materiały publikowane na portalu InfoInfo są przygotowywane
+                                    przez specjalistów z różnych dziedzin informatyki.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Anna -->
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+
+                            <div class="col-lg-4 text-center">
+                                <img src="witryna/img/kolory.PNG"
+                                     class="img-fluid rounded"
+                                     alt="Anna">
+                            </div>
+
+                            <div class="col-lg-8">
+                                <h3>Anna</h3>
+                                <p>
+                                    Autorka materiałów dotyczących CSS i projektowania stron internetowych.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Piotr -->
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+
+                            <div class="col-lg-4 text-center">
+                                <img src="witryna/img/roboto.PNG"
+                                     class="img-fluid rounded"
+                                     alt="Piotr">
+                            </div>
+
+                            <div class="col-lg-8">
+                                <h3>Piotr</h3>
+                                <p>
+                                    Autor materiałów związanych z HTML oraz Bootstrapem.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Przyciski karuzeli -->
+                <button class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#authorsCarousel"
+                        data-bs-slide="prev">
+
+                    <span class="carousel-control-prev-icon"></span>
+
+                </button>
+
+                <button class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#authorsCarousel"
+                        data-bs-slide="next">
+
+                    <span class="carousel-control-next-icon"></span>
+
+                </button>
+
+            </div>
+
+        </section>
 
         <!-- contact section -->
 
@@ -32,9 +125,8 @@
 
     <!-- footer -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-FKyoEForCGljvvx9Hj09JcYn3nv7wiPVlz7YWJrWVcXK/BmnVDxM+D2scQbITxI"
-            crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
