@@ -28,6 +28,17 @@
 
 .hero-title {
     font-size: 3rem;
+}
+
+.footer {
+    background-color: #111;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+.footer p {
+    margin: 0;
     font-weight: 700;
     color: #2241f7;
     margin-bottom: 20px;
