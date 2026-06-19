@@ -1,3 +1,10 @@
+html {
+    scroll-padding-top: 70px;
+    scroll-behavior: smooth;
+}
+
+#mainNavbar {
+    background-color: var(--color-400);
 #authorsCarousel .carousel-control-prev-icon,
 #authorsCarousel .carousel-control-next-icon {
     background-color: black;
