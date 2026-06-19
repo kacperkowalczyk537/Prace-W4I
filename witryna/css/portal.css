@@ -1,3 +1,23 @@
+#authorsCarousel .carousel-control-prev-icon,
+#authorsCarousel .carousel-control-next-icon {
+    background-color: black;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+#authors img {
+    max-width: 500px;
+    max-height: 300px;
+    width: 100%;
+    object-fit: contain;
+}
+
+#authors .carousel-item {
+    min-height: 350px;
+}
+
+#authors h3 {
+    margin-bottom: 20px;
                                              .hero-section {
     background-color: #e6e9fa;
     padding: 120px 0;
